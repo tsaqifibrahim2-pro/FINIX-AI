@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Navbar from "../components/Navbar";
 
 function Home() {
   const [started, setStarted] = useState(false);
@@ -23,6 +24,7 @@ function Home() {
 
   return (
     <>
+      <Navbar />
       <style>{`
         *{
           margin:0;
